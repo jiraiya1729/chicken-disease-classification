@@ -4,7 +4,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
-project_name = "cnnClassifier"
+project_name = "/cnnClassifier"
 
 list_of_files = [
     ".github/workflows/.gitkeep",
@@ -21,7 +21,8 @@ list_of_files = [
     "params.yaml",
     "requirements.txt",
     "setup.py",
-    "research/trails.ipynb"
+    "research/trails.ipynb",
+
     
 ]
 
@@ -40,5 +41,3 @@ for file_path in list_of_files:
         
     else:
         logging.info(f"{filename} is already exists ")
-
-print("varun")
