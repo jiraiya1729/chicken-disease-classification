@@ -40,3 +40,4 @@ for file_path in list_of_files:
         
     else:
         logging.info(f"{filename} is already exists ")
+print("w")
